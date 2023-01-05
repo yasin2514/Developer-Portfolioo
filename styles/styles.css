@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark1 {
+    color: #474747;
+}
+
+.dark2 {
+    color: #757575;
+}
+
+/* header section */
+header {
+    padding: 30px 0px 0px 0px;
+    background-image: url("../images/header_bg.png"),url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right,30px;
+    background-size:auto;
+    background-color:#FFF8F3;
+    
+}
+
+.header-title {
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+
+/* navbar section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px 47px 200px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    margin-left: 30px;
+    list-style: none;
+}
+
+ul li a {
+    font-weight: 400;
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #252424;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 12px 30px;
+}
+.btn-secondary{
+    margin-left: 30px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 12px 30px;
+    background-color:#FFF8F3;
+}
+
+.btn-primary:hover {
+    background: #dc5d02;
+    color: #e8e8e8;
+}
+.btn-secondary:hover{
+    color: #dc5d02;
+    border: 1px solid #dc5d02;
+}
+
+/* banner section */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0px 40px 0px 200px;
+
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.banner-text {
+    /* Weight 400 Size 18px Line height 30px */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
