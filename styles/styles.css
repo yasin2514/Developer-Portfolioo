@@ -21,12 +21,12 @@
 /* header section */
 header {
     padding: 30px 0px 0px 0px;
-    background-image: url("../images/header_bg.png"),url("../images/developer.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right,30px;
-    background-size:auto;
-    background-color:#FFF8F3;
-    
+    background-position: bottom right, 30px;
+    background-size: auto;
+    background-color: #FFF8F3;
+
 }
 
 .header-title {
@@ -39,7 +39,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0px 200px 47px 200px;
+    margin: 0px 200px 40px 200px;
 }
 
 ul {
@@ -72,7 +72,8 @@ ul li a:hover {
     border: 0;
     padding: 12px 30px;
 }
-.btn-secondary{
+
+.btn-secondary {
     margin-left: 30px;
     border: 1px solid #FD6E0A;
     color: #FD6E0A;
@@ -80,14 +81,15 @@ ul li a:hover {
     font-weight: 700;
     font-size: 20px;
     padding: 12px 30px;
-    background-color:#FFF8F3;
+    background-color: #FFF8F3;
 }
 
 .btn-primary:hover {
     background: #dc5d02;
     color: #e8e8e8;
 }
-.btn-secondary:hover{
+
+.btn-secondary:hover {
     color: #dc5d02;
     border: 1px solid #dc5d02;
 }
@@ -117,4 +119,43 @@ ul li a:hover {
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 30px;
+}
+
+/* main start */
+.main {
+    padding: 130px 200px;
+    display: flex;
+
+}
+
+.main-section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+
+}
+
+/* aboutme section */
+.aboutme {
+    text-align: center;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 156px;
+}
+
+.aboutme-details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutme-details title {
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.aboutme-details .sub-title {
+    font-weight: 700;
+    font-size: 20px;
 }
