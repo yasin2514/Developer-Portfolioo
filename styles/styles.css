@@ -273,17 +273,86 @@ footer {
     margin-right: 10px;
 
 }
-input{
+
+input {
     height: 50px;
-    padding: 0px 15px ;
+    padding: 0px 15px;
 
 }
-input,textarea {
+
+input,
+textarea {
     width: 93%;
     border: 0;
     border-radius: 5px;
     margin: 10px 0px;
 }
-textarea{
+
+textarea {
     padding: 10px 15px;
+}
+
+/* hide */
+.hide {
+    display: none;
+}
+
+@media only screen and (max-width:576px) {
+    header {
+        padding: 20px;
+        background-image: url(../images/header_bg.png);
+    }
+
+    nav {
+        margin: 0px;
+        flex-direction: column;
+    }
+
+    ul {
+        justify-content: space-between;
+    }
+
+    ul li {
+        margin-left: 0px;
+    }
+
+    .banner {
+        margin: 0px;
+        flex-direction: column;
+    }
+
+    .btn-secondary {
+        margin: 10px 0px;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .aboutme {
+        padding: 20px 0px;
+    }
+
+    .aboutme-details {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .resume-details {
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+
 }
