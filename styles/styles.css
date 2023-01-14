@@ -292,11 +292,6 @@ textarea {
     padding: 10px 15px;
 }
 
-/* hide */
-.hide {
-    display: none;
-}
-
 /* responsive for tablet device */
 @media only screen and (max-width:992px) {
     header {
