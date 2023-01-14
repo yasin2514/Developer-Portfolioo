@@ -297,23 +297,15 @@ textarea {
     display: none;
 }
 
-@media only screen and (max-width:576px) {
+/* responsive for tablet device */
+@media only screen and (max-width:992px) {
     header {
-        padding: 20px;
+        padding: 10px 30px 0px 30px;
         background-image: url(../images/header_bg.png);
     }
 
     nav {
         margin: 0px;
-        flex-direction: column;
-    }
-
-    ul {
-        justify-content: space-between;
-    }
-
-    ul li {
-        margin-left: 0px;
     }
 
     .banner {
@@ -321,29 +313,24 @@ textarea {
         flex-direction: column;
     }
 
-    .btn-secondary {
-        margin: 10px 0px;
-    }
-
     .banner-image img {
         width: 100%;
     }
 
     .main {
-        padding: 20px;
+        padding: 30px;
     }
 
     .aboutme {
-        padding: 20px 0px;
-    }
-
-    .aboutme-details {
-        flex-direction: column;
-        row-gap: 10px;
+        padding: 20px;
     }
 
     .cards {
-        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        text-align: center;
     }
 
     .resume-details {
@@ -351,8 +338,44 @@ textarea {
     }
 
     footer {
-        padding: 10px 20px;
+        padding: 30px;
+        flex-direction: column;
+    }
+}
+
+/* responsive for mobile device */
+@media only screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
         flex-direction: column;
     }
 
+    ul {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    ul li {
+        margin-left: 0px;
+    }
+
+    .btn-secondary {
+        margin: 10px 0px;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .aboutme-details {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    footer {
+        padding: 20px;
+    }
 }
